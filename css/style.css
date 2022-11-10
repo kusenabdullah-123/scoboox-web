@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap");
+.font-popin {
+  font-family: "Heebo", sans-serif;
+}
+.black {
+  color: black;
+}
+.decoration-none {
+  text-decoration: none;
+}
+
+.green-transparan {
+  color: #8ec3b0;
+}
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-justify-center {
+  justify-content: center;
+}
+.flex-align-center {
+  justify-content: center;
+}
+.flex-around {
+  justify-content: space-around;
+}
+.flex-between {
+  justify-content: space-between;
+}
+
+/*  */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h1.nav-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 75px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 75px;
+  list-style-type: none;
+}
+nav ul li {
+  display: flex;
+  width: 70px;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+li.signup {
+  background-color: #363636;
+  border-radius: 12px;
+}
+li.signup a {
+  color: #ffffff;
+}
+
+.container {
+  height: 675px;
+  padding: 0px 75px 0px 75px;
+}
+.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+section.header-top .container .image img {
+  width: 500px;
+}
+.header-title {
+  width: 394px;
+}
+.header-title h1.title {
+  font-size: 64px;
+}
+.header-title .row-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-title .row-button .button-sewa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  color: white;
+  border-radius: 12px;
+  background-color: #363636;
+  padding: 12px 24px;
+}
+.header-title .row-button .button-unit {
+  border-bottom: 1px black solid;
+  color: #363636;
+}
+
+section.about {
+  margin-top: 50px;
+}
+section.about .container .title-about {
+  padding-left: 78px;
+  width: 568px;
+}
+section.about .container .title-about h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+section.about .container .title-about p.about-top {
+  font-size: 32px;
+  font-weight: 500;
+}
+section.about .container .title-about p.about-bottom {
+  text-align: left;
+  width: 470px;
+  font-size: 20px;
+  font-weight: normal;
+}
