@@ -1,14 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 .font-popin {
-  font-family: "Heebo", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #ededed;
 }
 .black {
   color: black;
 }
+.white {
+  color: white;
+}
+.bg-white {
+  background-color: white;
+}
 .decoration-none {
   text-decoration: none;
 }
-
+.bg-abu-abu {
+  background-color: #747474;
+}
+.bg-white {
+  background-color: white;
+}
+.abu-abu {
+  color: #acacac;
+}
 .green-transparan {
   color: #8ec3b0;
 }
@@ -24,16 +41,25 @@
 .flex-justify-center {
   justify-content: center;
 }
-.flex-align-center {
-  justify-content: center;
-}
+
 .flex-around {
   justify-content: space-around;
 }
 .flex-between {
   justify-content: space-between;
 }
-
+.flex-align-center {
+  align-items: center;
+}
+.font-bold {
+  font-weight: bold;
+}
+.font-semibold {
+  font-weight: 500;
+}
+.font-normal {
+  font-weight: normal;
+}
 /*  */
 nav {
   display: flex;
@@ -87,7 +113,7 @@ section.header-top .container .image img {
   width: 394px;
 }
 .header-title h1.title {
-  font-size: 64px;
+  font-size: 60px;
 }
 .header-title .row-button {
   display: flex;
@@ -129,4 +155,114 @@ section.about .container .title-about p.about-bottom {
   width: 470px;
   font-size: 20px;
   font-weight: normal;
+}
+section.services .container {
+  padding-bottom: 50px;
+}
+section.services .container .title-services {
+  padding-top: 50px;
+}
+section.services .container .title-services h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+section.services .container p.services-top {
+  font-size: 32px;
+  font-weight: 500;
+  width: 447px;
+  text-align: center;
+  margin: 0px;
+}
+section.services .container p.services-bottom {
+  font-size: 20px;
+  font-weight: 500;
+  width: 628px;
+  text-align: center;
+  font-weight: normal;
+}
+.cards {
+  width: 100%;
+}
+.card {
+  width: 300px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-top: #8ec3b0 15px solid;
+  padding: 10px;
+}
+section.services .container .cards .card h2.title-card-services {
+  font-size: 24px;
+}
+section.services .container .cards .card p.desc-services {
+  font-size: 16px;
+}
+section.unit .container .title {
+  font-size: 20px;
+}
+section.unit .container .menu .title {
+  font-size: 32px;
+}
+section.unit .container .menu .menu-kanan {
+  width: 50%;
+}
+section.unit .container .menu .menu-kanan h2 {
+  font-size: 24px;
+}
+section.unit .container .cards-unit {
+  margin-top: 45px;
+}
+section.unit .container .cards-unit .card-unit {
+  width: 250px;
+  height: 400px;
+  border-radius: 12px;
+  padding: 10px;
+}
+section.unit .container .cards-unit .card-unit .price {
+  width: 80%;
+}
+section.unit .container .cards-unit .card-unit .price .right .dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #a8a8a8;
+}
+section.unit .container .cards-unit .card-unit a.button {
+  height: 44px;
+  width: 264px;
+  background-color: #363636;
+  border-radius: 12px;
+}
+section.unit .container .button-bottom a {
+  margin-top: 30px;
+  height: 44px;
+  width: 264px;
+  background-color: #363636;
+  border-radius: 12px;
+}
+
+section.bottom {
+  height: 385px;
+  background-image: url("../image/image-foot.png");
+}
+section.bottom h1 {
+  font-size: 46px;
+  width: 478px;
+  text-align: center;
+}
+
+footer {
+  height: 100px;
+  padding: 0px 75px 0px 75px;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+}
+footer ul li {
+  width: 67px;
+  list-style-type: none;
+}
+footer ul li a {
+  text-decoration: none;
+  cursor: pointer;
 }
