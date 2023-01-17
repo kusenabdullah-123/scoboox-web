@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+a {
+  text-decoration: none;
+}
 .font-popin {
   font-family: "Poppins", sans-serif;
 }
@@ -213,7 +216,7 @@ section.unit .container .cards-unit {
 }
 section.unit .container .cards-unit .card-unit {
   width: 250px;
-  height: 400px;
+  height: 310px;
   border-radius: 12px;
   padding: 10px;
 }
@@ -227,8 +230,9 @@ section.unit .container .cards-unit .card-unit .price .right .dot {
   background-color: #a8a8a8;
 }
 section.unit .container .cards-unit .card-unit a.button {
+ 
   height: 44px;
-  width: 264px;
+  width: 200px;
   background-color: #363636;
   border-radius: 12px;
 }
